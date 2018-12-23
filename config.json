@@ -1,0 +1,21 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbound": {
+    "protocol": "vmess",
+    "port": 1080,
+    "settings": {
+      "clients": [
+        {
+          "id": "78ad410c-0650-11e9-b426-8745ced842e2",
+          "alterId": 64
+        }
+      ]
+    }
+  },
+  "outbound": {
+    "protocol": "freedom",
+    "settings": {}
+  }
+}
