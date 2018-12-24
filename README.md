@@ -1,5 +1,7 @@
 This project is designed to provide a image to quickly run v2ray on your host
 
+Checkout project home on [github](https://github.com/wolisi/docker-v2ray)
+
 # Build the image
 
 There is NO need to run the build yourself if you just want to run thie image, checkout the [Run the container](#run-the-container) section
