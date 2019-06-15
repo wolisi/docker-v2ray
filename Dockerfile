@@ -1,5 +1,5 @@
 FROM ubuntu:latest as builder
-ARG V2RAY_VER=v4.9.0
+ARG V2RAY_VER=v4.19.1
 RUN apt-get update
 RUN apt-get install curl unzip -y
 RUN curl -L -o v2ray.zip https://github.com/v2ray/v2ray-core/releases/download/${V2RAY_VER}/v2ray-linux-64.zip
